@@ -51,6 +51,6 @@ class BotManager:
 
 if __name__ == '__main__':
     bot_id = config.FL_BOT_ID
-    script_path = '/home/dylan/FLBOT/main.py'
+    script_path = config.FL_BOT_PATH
 
     bot_manager = BotManager(bot_id, script_path)
